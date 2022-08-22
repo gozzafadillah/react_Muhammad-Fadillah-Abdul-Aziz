@@ -39,5 +39,6 @@ Sebuah percabangan yang fungsinya untuk pembuatan entah itu penambahan fitur ata
    ![branch-feature](./screenschots/branch_feature_calculator.png)
    ![branch-feature](./screenschots/branch_feature_hello.png)
 8. lalu merge dari features ke branch dev `git merge feature-calculator` dan `git merge feature-hello`
-9. Berikut git workflow nya
+9. Berikut git workflow nya dan network graph nya
    ![git workflow](./screenschots/branch_flow.png)
+   ![network github](./screenschots/Network-Graph.png)
