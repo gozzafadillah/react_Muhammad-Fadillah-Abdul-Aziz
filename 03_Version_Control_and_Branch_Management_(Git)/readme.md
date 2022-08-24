@@ -5,7 +5,7 @@
 
 ## Git Version Control
 
-Git version control merupakan sebuah fitur version control system (VCS) secara central dan secara terdistribusi.
+Git version control merupakan sebuah fitur version control system (VCS) secara central dan secara terdistribusi. Git dapat membedakan antara version file hanya dari source code nya, jadi dapat di monitoring data yang telah diubah.
 
 ## Git Branch Management
 
