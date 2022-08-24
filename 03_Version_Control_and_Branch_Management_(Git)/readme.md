@@ -11,6 +11,12 @@ Git version control merupakan sebuah fitur version control system (VCS) secara c
 
 Sebuah percabangan yang fungsinya untuk pembuatan entah itu penambahan fitur atau maintance yang bertujuan tidak mengganggu cabang (branch) origin / main / master.
 
+## Git Stages
+
+Berikut adalah alur dari perjalanan file kita dalam github :
+
+`work directory -> Stages -> repository`
+
 ## 3 Poin yang saya dapatkan:
 
 - Versioning, Merupakan interaksi antara project dengan tim dimana terjadinya sebuah revisi / perubahan. dalam versioning pada git bila ingin merubah versi ke sebelumnya tinggal di ubah dengan "git log --outline" disana kita dapat me reset secara soft atau hard ke versi yang salah atau tidak kepakai.
@@ -44,3 +50,7 @@ link repository : [https://github.com/gozzafadillah/latihan-section-1](https://g
 9. Berikut git workflow nya dan network graph nya
    ![git workflow](./screenschots/branch_flow.png)
    ![network github](./screenschots/Network-Graph.png)
+
+```
+
+```
