@@ -26,6 +26,8 @@ Sebuah percabangan yang fungsinya untuk pembuatan entah itu penambahan fitur ata
 
 ## Praktikum
 
+link repository : [https://github.com/gozzafadillah/latihan-section-1](https://github.com/gozzafadillah/latihan-section-1)
+
 1. Membuat folder praktikum section 1
 2. Menginisialisasikan folder tersebut dengan `git init`
 3. Membuat branch master `git branch -M master`
