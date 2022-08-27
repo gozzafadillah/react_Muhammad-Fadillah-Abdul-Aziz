@@ -88,6 +88,16 @@
     </div>
 
     <button onclick="Submit()">Submit</button>
-    <script src="./index.js"></script>
+    <script>
+      let firstName = "";
+      let lastName = "";
+      function Submit() {
+        firstName = document.getElementById("Fname").value;
+        lastName = document.getElementById("Lname").value;
+        let name = firstName + " " + lastName;
+        localStorage.setItem("name", name);
+        window.location.replace("welcome.html");
+      }
+    </script>
   </body>
 </html>
