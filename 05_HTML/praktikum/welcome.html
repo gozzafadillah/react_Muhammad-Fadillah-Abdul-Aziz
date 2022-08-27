@@ -9,6 +9,10 @@
   <body>
     <h1 id="greet"></h1>
     <h3>Terimakasih telah bergabung di MyBook. Social media kita bersama!</h3>
-    <script src="./index.js"></script>
+    <script>
+      let getName = localStorage.getItem("name");
+      getName = getName.toUpperCase();
+      document.getElementById("greet").innerHTML = `SELAMAT DATANG ${getName}`;
+    </script>
   </body>
 </html>
