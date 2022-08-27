@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Sign Up</title>
+    <style>
+      body {
+        margin: 0 20px;
+      }
+      .block {
+        display: block;
+      }
+      .form-input {
+        margin: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Membuat Account Baru!</h1>
+    <h2>Sign Up Form</h2>
+    <div class="form-input">
+      <label for="Fname">First Name</label>
+      <input type="text" name="Fname" id="Fname" />
+    </div>
+
+    <div class="form-input">
+      <label for="Lname">Last Name</label>
+      <input type="text" name="Lname" id="Lname" />
+    </div>
+
+    <div class="form-input">
+      Gender:
+      <label class="block" for="male"
+        ><input type="radio" name="male" id="male" />Male</label
+      >
+
+      <label class="block" for="female">
+        <input type="radio" name="female" id="female" />Female</label
+      >
+
+      <label class="block" for="other">
+        <input type="radio" name="other" id="other" />Other</label
+      >
+    </div>
+
+    <div class="form-input">
+      <label class="block" for="nasionality">Nasionality:</label>
+      <select name="nasionality" id="nasionality">
+        <option value="Indonesia">Indonesia</option>
+        <option value="UK">UK</option>
+        <option value="Japan">Japan</option>
+      </select>
+    </div>
+
+    <div class="form-input">
+      Languange Spoken:
+
+      <label for="Bahasa_Indonesia" class="block"
+        ><input
+          type="checkbox"
+          name="Bahasa_Indonesia"
+          value="Bahasa_Indonesia"
+        />Bahasa Indonesia</label
+      >
+
+      <label for="Bahasa_English" class="block"
+        ><input
+          type="checkbox"
+          name="Bahasa_English"
+          value="Bahasa_English"
+        />English</label
+      >
+
+      <label for="Bahasa_Other" class="block"
+        ><input
+          type="checkbox"
+          name="Bahasa_Other"
+          value="Bahasa_Other"
+        />Other</label
+      >
+    </div>
+
+    <div class="form-input">
+      <p>Bio:</p>
+      <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    </div>
+
+    <button onclick="Submit()">Submit</button>
+    <script src="./index.js"></script>
+  </body>
+</html>
