@@ -1,0 +1,112 @@
+.navbar-brand span {
+  color: rgb(128, 197, 25);
+}
+
+.about h1 {
+  color: rgb(149, 149, 149) !important;
+  font-weight: lighter;
+}
+.about h5 {
+  color: rgb(135, 135, 135) !important;
+  font-weight: light;
+}
+
+.d-flex .about-body {
+  display: inline-block;
+  width: 18rem;
+  list-style: none;
+  margin: 0 60px;
+}
+
+.d-flex img {
+  width: 3.2rem;
+}
+
+.about .d-flex {
+  margin-top: 120px;
+}
+
+.d-flex .head {
+  margin: 20px 0;
+  font-weight: bold;
+}
+.d-flex .body {
+  color: rgb(135, 135, 135);
+}
+.d-flex .link {
+  margin: 20px 0;
+}
+
+.d-flex .link a {
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}
+
+.d-flex .img-app,
+.desc-app {
+  margin: 200px 20px;
+}
+
+.app-intro .desc-app {
+  width: 40rem;
+}
+
+.app-intro .img-app img {
+  height: 40rem;
+  width: auto;
+}
+
+.unstyle-list ul {
+  list-style: none;
+  padding: 0;
+  color: rgb(103, 103, 103) !important;
+}
+.unstyle-list li {
+  padding-left: 1.3em;
+  margin: 20px 0;
+}
+.unstyle-list li:before {
+  content: "\f105"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+  color: rgb(184, 183, 183) !important;
+}
+
+.footer {
+  background-color: rgb(38, 37, 37);
+  color: white !important;
+  padding: 20px 0;
+}
+
+.logo-footer {
+  width: 40rem;
+}
+.logo-footer,
+.about-us,
+.support,
+.team,
+.price {
+  margin: 10px 25px;
+}
+
+.about-us ul,
+.support ul,
+.team ul,
+.price ul {
+  margin: 20px 0;
+}
+.about-us ul li,
+.support ul li,
+.team ul li,
+.price ul li {
+  margin: 10px 0;
+}
+.about-us ul li a,
+.support ul li a,
+.team ul li a,
+.price ul li a {
+  text-decoration: none;
+  color: white;
+}
