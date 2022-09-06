@@ -2,9 +2,9 @@ var a = 5;
 let b = "kampus merdeka";
 const nama = "Budi";
 let terdaftar = true;
-let lengkap_arr = [a, b, nama, terdaftar];
+let lengkapArr = [a, b, nama, terdaftar];
 
-let TakeArrayIndex2 = lengkap_arr[2];
+let TakeArrayIndex2 = lengkapArr[2];
 
 function perkenalan() {
   let asal = "indonesia";
