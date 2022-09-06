@@ -4,7 +4,7 @@ const nama = "Budi";
 let terdaftar = true;
 let lengkapArr = [a, b, nama, terdaftar];
 
-let TakeArrayIndex2 = lengkapArr[2];
+let takeArrayIndex2 = lengkapArr[2];
 
 function perkenalan() {
   let asal = "indonesia";
