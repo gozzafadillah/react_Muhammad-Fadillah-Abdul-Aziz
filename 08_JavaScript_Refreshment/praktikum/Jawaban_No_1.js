@@ -1,4 +1,4 @@
-var a = 5;
+let a = 5;
 let b = "kampus merdeka";
 const nama = "Budi";
 let terdaftar = true;
