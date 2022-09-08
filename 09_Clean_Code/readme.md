@@ -20,8 +20,14 @@ merupakan istilah untuk kode yang mudah dibaca, dipahami, dan diubah oleh progra
 
 1. KISS: Keep It So Simple / Keep it Simple Stupid
 
-Fungsi atau class harus kecil, melakukan satu tugas, dan tidak menggunakan banyak argumen.
+- Fungsi atau class harus kecil
+- melakukan satu tugas
+- tidak menggunakan banyak argumen.
 
 2. DRY: Don’t Repeat Yourself
 
-Buatlah fungsi yang dapat digunakan berulang
+- Buatlah fungsi yang dapat digunakan berulang
+
+3. Recfactoring
+
+- Refactstructuring kode yang telah dibuat dengan mengubah struktur internal tanpa mengubah struktur external.
