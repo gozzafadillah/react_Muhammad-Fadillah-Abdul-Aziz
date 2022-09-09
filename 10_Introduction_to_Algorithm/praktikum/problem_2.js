@@ -7,7 +7,7 @@ let inputAngka = (angka) => {
   tombol();
 };
 
-let tombol = () => {
+const tombol = () => {
   let index = 1;
   let lampu = "Lampu mati";
   while (index <= ANGKA.length) {
