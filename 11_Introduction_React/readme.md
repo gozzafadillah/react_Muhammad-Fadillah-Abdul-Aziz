@@ -30,3 +30,8 @@ Struktur file penting pada React JS :
 1. Gunakan node NPM untuk menginstal dengan cara `npx create-react-app <nama-project>`
 2. Setelah terinstal dependensinya coba run di `npm run start` atau `yarn run start`
 3. Buka server di `localhost:3000` pada web Browser
+
+## Praktikum
+
+Berikut hasil praktikum saya membuat halaman Home
+!["halaman-home"](./screenshots/praktikum_home.png)
