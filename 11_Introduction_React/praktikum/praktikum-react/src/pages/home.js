@@ -1,6 +1,6 @@
 import React from "react";
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <header>
@@ -63,4 +63,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
