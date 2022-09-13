@@ -1,5 +1,5 @@
 const ANGKA = [];
-let inputAngka = (angka) => {
+let InputAngka = (angka) => {
   for (let index = 1; index <= angka; index++) {
     ANGKA.push(index);
   }
@@ -23,5 +23,5 @@ const tombol = () => {
   console.log("keadaan " + lampu);
 };
 
-inputAngka(4);
-inputAngka(5);
+InputAngka(4);
+InputAngka(5);

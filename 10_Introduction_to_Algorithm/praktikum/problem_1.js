@@ -1,12 +1,12 @@
-let input = (angka) => {
-  let i = 1;
-  for (let m = 1; m < angka; m++) {
+const Input = (angka) => {
+  let count = 1;
+  for (let i = 1; i < angka; i++) {
     let hasil;
-    if (angka % m == 0) {
-      i++;
+    if (angka % i == 0) {
+      count++;
     }
   }
-  if (i == 2) {
+  if (count == 2) {
     hasil = "prima";
   } else {
     hasil = "bukan prima";
@@ -15,6 +15,6 @@ let input = (angka) => {
   console.log(`angka : ${angka} adalah bilangan ${hasil}`);
 };
 
-input(3);
-input(7);
-input(10);
+Input(3);
+Input(7);
+Input(10);
