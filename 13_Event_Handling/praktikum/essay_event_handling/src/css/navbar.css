@@ -1,0 +1,12 @@
+.Navbar {
+  text-align: center;
+  height: auto;
+  padding: 15px 0px 5px;
+  font-size: xxx-large;
+
+  color: #c9c010;
+  background-image: -webkit-linear-gradient(0deg, #efe757 40%, #2185cc 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
