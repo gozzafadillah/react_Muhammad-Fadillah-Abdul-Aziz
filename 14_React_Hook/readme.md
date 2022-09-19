@@ -7,7 +7,7 @@ Aturan pada hooks:
 - Hanya panggil hooks di tingkat atas
 - Hanya panggil hooks dari fungsi-fungsi react
 
-## Custom Hooks
+### Custom Hooks
 
 Kita dapat membuat hook sendiri yang memungkinkan kita dapat membuat komponen logic yang reusable
 
