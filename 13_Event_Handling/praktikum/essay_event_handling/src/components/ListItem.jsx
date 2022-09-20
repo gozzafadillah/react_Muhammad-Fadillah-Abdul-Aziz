@@ -1,6 +1,7 @@
 import "../css/todo.css";
 
-const ListItem = ({ item, hapusTodo, gantiStatus }) => {
+const ListItem = (props) => {
+  const { item, hapusTodo, gantiStatus } = props;
   return (
     <div>
       <div className={item.completed ? "completed" : "notCompleted"}>
@@ -17,9 +18,7 @@ const ListItem = ({ item, hapusTodo, gantiStatus }) => {
             onChange={() => {
               gantiStatus(item.id);
             }}
-            {...(item.completed === true
-              ? { checked: "checked" }
-              : { checked: "" })}
+            checked={item.completed}
           />
           <span style={{ textAlign: "center" }}> {item.title}</span>
           <button

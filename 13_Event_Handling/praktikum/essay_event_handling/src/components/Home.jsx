@@ -37,7 +37,7 @@ export default class Home extends Component {
   gantiStatus = (id) => {
     const checkedBox = this.state.data.findIndex((value) => value.id === id);
     let newData = [...this.state.data];
-    if (checkedBox !== -1) {
+    if (checkedBox >= 0) {
       newData[checkedBox].completed = !newData[checkedBox].completed;
     }
     this.setState({ data: newData });
