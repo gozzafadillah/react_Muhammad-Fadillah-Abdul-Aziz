@@ -4,7 +4,6 @@ import Data from "../data/todoData.js";
 
 function GetData(props) {
   const { todos } = props;
-  console.log(todos);
 
   return (
     <>
@@ -22,7 +21,6 @@ function GetData(props) {
 }
 
 function Todo() {
-  console.log(Data);
   return (
     <div>
       <GetData todos={Data} />
