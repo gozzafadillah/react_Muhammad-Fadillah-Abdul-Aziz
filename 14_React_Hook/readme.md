@@ -18,3 +18,17 @@ useState memungkinkan kita untuk melacak state dalam komponen function. useState
 - useEffect
 
 useEffect memungkinkan kita untuk melakukan side-effect pada komponen. contohnya adalah mengambil data, memperbarui DOM secara langsung, atau pengatur waktu. useEffect menerima dua argumen yaitu function dan dependency, namun untuk argumen kedua ini bersifat opsional.
+
+### Praktikum
+
+Mengubah class component dari essay section 13 ke functional component dengan react hook
+berikut setelah merubah dari class component ke functional component
+
+1. Menambah data todo
+   !["add-todo"](./screenshots/add-tod.png)
+2. Hasil dari menambah data
+   !["add-todo"](./screenshots/view.png.png)
+3. Checkbox bila todo telah selesai
+   !["add-todo"](./screenshots/checkbox.png)
+4. Menghapus todo bila selesai
+   !["add-todo"](./screenshots/delete.png)
