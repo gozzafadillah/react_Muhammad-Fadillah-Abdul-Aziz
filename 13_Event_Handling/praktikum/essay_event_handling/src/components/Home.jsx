@@ -41,7 +41,6 @@ export default class Home extends Component {
       newData[checkedBox].completed = !newData[checkedBox].completed;
     }
     this.setState({ data: newData });
-    console.log(this.state.data);
   };
 
   render() {

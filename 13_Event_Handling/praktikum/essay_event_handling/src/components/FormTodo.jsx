@@ -11,12 +11,10 @@ class FormTodo extends Component {
     this.setState({
       [e.target.name]: e.target.value,
     });
-    console.log(e.target.value);
   };
 
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e);
     const isNotEmpty = this.state.title;
     if (isNotEmpty) {
       const newData = {
