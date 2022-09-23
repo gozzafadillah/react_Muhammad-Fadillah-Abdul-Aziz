@@ -35,3 +35,15 @@ Parameter URL berguna untuk menciptakan paginasi, sort n filter data, pencarian,
 - **useLocation:** mengembalikan objek lokasi yang mewakili URL saat ini. konsepnya mirip dengan useState
 - **useParams:** mengembalikan objek berisi key dan nilai URL. Digunakan untuk mengakses match.params dari Route saat ini.
 - **useRouteMatch:** mencocokkan URL saat ini sama dengan cara seperti <Route>.
+
+## Praktikum
+
+1. Membuat Tampilan home merupakan halaman TodoPages
+   ![home](./screenshots/home.png)
+2. Membuat sidebar dimana dalam sidebar terdapat navigation ke home, about profile, dan about author.
+3. Berikut tampilan dari About App
+   ![about-app](./screenshots/about-app.png)
+4. Berikut tampilan dari About Author
+   ![about-author](./screenshots/about-author.png)
+5. Berikut tampilan dari error 404 notfound
+   ![404NotFound](./screenshots/404NotFound.png)
