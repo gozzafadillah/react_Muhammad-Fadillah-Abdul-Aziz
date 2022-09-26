@@ -28,7 +28,7 @@ function FormComponent() {
 
   const suratKesungguhan = useRef(null);
   const [data, setData] = useState(BASEDATA);
-  const [errorMessages, setErrorMessage] = useState(BASEERROR);
+  const [errorMessages, setErrorMessages] = useState(BASEERROR);
   const [tombol, setTombol] = useState(false);
 
   const regexEmail =
@@ -43,12 +43,12 @@ function FormComponent() {
 
     if (name === "nama") {
       if (regexName.test(value)) {
-        setErrorMessage({
+        setErrorMessages({
           ...errorMessages,
           nama: "",
         });
       } else {
-        setErrorMessage({
+        setErrorMessages({
           ...errorMessages,
           nama: "Nama harus berupa huruf",
         });
@@ -57,12 +57,12 @@ function FormComponent() {
 
     if (name === "email") {
       if (emailPattern.test(value)) {
-        setErrorMessage({
+        setErrorMessages({
           ...errorMessages,
           email: "",
         });
       } else {
-        setErrorMessage({
+        setErrorMessages({
           ...errorMessages,
           email: "Format email tidak sesuai",
         });
@@ -71,12 +71,12 @@ function FormComponent() {
     if (name === "phoneNumber") {
       // jumlah nomor 9-14
       if (data.phoneNumber.length > 7 && data.phoneNumber.length < 15) {
-        setErrorMessage({
+        setErrorMessages({
           ...errorMessages,
           phoneNumber: "",
         });
       } else {
-        setErrorMessage({
+        setErrorMessages({
           ...errorMessages,
           phoneNumber: "No handphone tidak sesuai",
         });
