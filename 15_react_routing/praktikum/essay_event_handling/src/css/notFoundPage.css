@@ -1,0 +1,26 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.not-found-container .not-found {
+  font-size: 4.5rem;
+  font-weight: bolder;
+}
+.not-found-container .sub-found {
+  font-size: 1.8rem;
+  font-weight: normal;
+  vertical-align: super;
+}
+
+@media only screen and (max-width: 600px) {
+  .not-found-container .not-found {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .not-found-container .sub-found {
+    display: none;
+  }
+}
