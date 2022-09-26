@@ -8,10 +8,10 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import "./form.css";
 import { useNavigate } from "react-router-dom";
 
-const FormComponent = () => {
+function FormComponent() {
   const Navigated = useNavigate();
 
-  const baseData = {
+  const BASEDATA = {
     nama: "",
     email: "",
     phoneNumber: "",
@@ -20,15 +20,15 @@ const FormComponent = () => {
     harapan: "",
   };
 
-  const baseError = {
+  const BASEERROR = {
     nama: "",
     email: "",
     phoneNumber: "",
   };
 
   const suratKesungguhan = useRef(null);
-  const [data, setData] = useState(baseData);
-  const [errorMessage, setErrorMessage] = useState(baseError);
+  const [data, setData] = useState(BASEDATA);
+  const [errorMessages, setErrorMessage] = useState(BASEERROR);
   const [tombol, setTombol] = useState(false);
 
   const regexEmail =
@@ -44,12 +44,12 @@ const FormComponent = () => {
     if (name === "nama") {
       if (regexName.test(value)) {
         setErrorMessage({
-          ...errorMessage,
+          ...errorMessages,
           nama: "",
         });
       } else {
         setErrorMessage({
-          ...errorMessage,
+          ...errorMessages,
           nama: "Nama harus berupa huruf",
         });
       }
@@ -58,12 +58,12 @@ const FormComponent = () => {
     if (name === "email") {
       if (emailPattern.test(value)) {
         setErrorMessage({
-          ...errorMessage,
+          ...errorMessages,
           email: "",
         });
       } else {
         setErrorMessage({
-          ...errorMessage,
+          ...errorMessages,
           email: "Format email tidak sesuai",
         });
       }
@@ -72,12 +72,12 @@ const FormComponent = () => {
       // jumlah nomor 9-14
       if (data.phoneNumber.length > 7 && data.phoneNumber.length < 15) {
         setErrorMessage({
-          ...errorMessage,
+          ...errorMessages,
           phoneNumber: "",
         });
       } else {
         setErrorMessage({
-          ...errorMessage,
+          ...errorMessages,
           phoneNumber: "No handphone tidak sesuai",
         });
       }
@@ -99,9 +99,9 @@ const FormComponent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (
-      !errorMessage.nama &&
-      !errorMessage.email &&
-      !errorMessage.phoneNumber
+      !errorMessages.nama &&
+      !errorMessages.email &&
+      !errorMessages.phoneNumber
     ) {
       Navigated("/");
       alert(`Data pendaftar "${data.nama}" berhasil diterima`);
@@ -136,7 +136,7 @@ const FormComponent = () => {
                   placeholder="Masukan Nama ..."
                   required
                 />
-                <p className="text-danger">{errorMessage.nama}</p>
+                <p className="text-danger">{errorMessages.nama}</p>
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>
@@ -149,7 +149,7 @@ const FormComponent = () => {
                   value={data.email}
                   placeholder="Masukan Email ..."
                 />
-                <p className="text-danger">{errorMessage.email}</p>
+                <p className="text-danger">{errorMessages.email}</p>
               </Form.Group>
 
               <Form.Group className="mb-3">
@@ -163,7 +163,7 @@ const FormComponent = () => {
                   value={data.phoneNumber}
                   placeholder="Masukan No Handphone ..."
                 />
-                <p className="text-danger">{errorMessage.phoneNumber}</p>
+                <p className="text-danger">{errorMessages.phoneNumber}</p>
               </Form.Group>
 
               <Form.Group
@@ -261,6 +261,6 @@ const FormComponent = () => {
       </Container>
     </>
   );
-};
+}
 
 export default FormComponent;
