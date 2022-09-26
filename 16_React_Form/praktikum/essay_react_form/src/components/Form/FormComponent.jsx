@@ -9,7 +9,7 @@ import "./form.css";
 import { useNavigate } from "react-router-dom";
 
 function FormComponent() {
-  const Navigated = useNavigate();
+  const navigated = useNavigate();
 
   const BASEDATA = {
     nama: "",
@@ -103,7 +103,7 @@ function FormComponent() {
       !errorMessages.email &&
       !errorMessages.phoneNumber
     ) {
-      Navigated("/");
+      navigated("/");
       alert(`Data pendaftar "${data.nama}" berhasil diterima`);
     } else {
       alert("Data pendaftar tidak sesuai");
