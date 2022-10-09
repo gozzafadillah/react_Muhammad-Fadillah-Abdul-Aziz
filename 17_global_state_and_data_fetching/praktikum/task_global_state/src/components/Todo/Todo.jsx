@@ -2,8 +2,8 @@ import { useDispatch } from "react-redux";
 
 import "../../css/todo.css";
 import { v4 as uuidv4 } from "uuid";
-import TodoName from "../../pages/Todo/TodoName";
-import FormTodo from "../../pages/Todo/FormTodo";
+import TodoName from "../../components/Todo/TodoName";
+import FormTodo from "../../components/Todo/FormTodo";
 import HeaderPage from "../Header/HeaderPage";
 import {
   todoAdded,
