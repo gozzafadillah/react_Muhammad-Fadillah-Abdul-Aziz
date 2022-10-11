@@ -21,11 +21,7 @@ function FormTodo() {
     const isNotEmpty = data.title;
     if (isNotEmpty) {
       dispatch(
-        addTodo({
-          id: uuidv4(),
-          title: data.title,
-          completed: data.completed,
-        })
+        addTodo({ id: uuidv4(), title: data.title, completed: data.completed })
       );
       setData({
         id: "",
