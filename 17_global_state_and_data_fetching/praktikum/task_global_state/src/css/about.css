@@ -1,0 +1,18 @@
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 7.5vh 10vw 0 14.5vw;
+  text-align: justify;
+}
+
+.about-content {
+  margin: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container-about {
+    margin: 7.5vh 3vh 0 26.5vh;
+  }
+}
