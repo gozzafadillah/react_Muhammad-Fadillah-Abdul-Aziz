@@ -1,0 +1,29 @@
+{
+  "data": {
+    "update_kampus_merdeka_keterangan": {
+      "returning": [
+        {
+          "id": 2,
+          "id_anggota": 1,
+          "nilai": 65,
+          "pelajaran": "React",
+          "status": true
+        },
+        {
+          "id": 4,
+          "id_anggota": 2,
+          "nilai": 50,
+          "pelajaran": "React",
+          "status": true
+        },
+        {
+          "id": 6,
+          "id_anggota": 3,
+          "nilai": 55,
+          "pelajaran": "React",
+          "status": true
+        }
+      ]
+    }
+  }
+}

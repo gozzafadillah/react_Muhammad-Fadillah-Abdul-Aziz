@@ -1,0 +1,20 @@
+mutation InputAnggota {
+  insert_kampus_merdeka_anggota_one(object: { nama: "Budi" }) {
+    id
+    nama
+  }
+}
+
+mutation InputAnggota {
+  insert_kampus_merdeka_anggota_one(object: { nama: "Sita" }) {
+    id
+    nama
+  }
+}
+
+mutation InputAnggota {
+  insert_kampus_merdeka_anggota_one(object: { nama: "Angga" }) {
+    id
+    nama
+  }
+}

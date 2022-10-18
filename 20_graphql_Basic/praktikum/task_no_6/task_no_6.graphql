@@ -1,0 +1,5 @@
+query GetAnggotaStatTrue {
+  kampus_merdeka_anggota(where: { keterangans: { status: { _eq: true } } }) {
+    nama
+  }
+}

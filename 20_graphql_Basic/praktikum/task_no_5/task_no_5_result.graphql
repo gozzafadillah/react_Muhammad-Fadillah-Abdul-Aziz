@@ -1,0 +1,11 @@
+mutation InsertKeterangan {
+  insert_kampus_merdeka_keterangan_one(
+    object: { id_anggota: 2, nilai: 85, pelajaran: "React", status: true }
+  ) {
+    id
+    id_anggota
+    nilai
+    pelajaran
+    status
+  }
+}
