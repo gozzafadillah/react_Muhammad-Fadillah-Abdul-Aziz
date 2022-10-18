@@ -1,0 +1,26 @@
+{
+  "data": {
+    "kampus_merdeka_anggota": [
+      {
+        "id": 3,
+        "nama": "Angga",
+        "keterangans": [
+          {
+            "id": 5,
+            "id_anggota": 3,
+            "nilai": 90,
+            "pelajaran": "Sistem Informasi",
+            "status": true
+          },
+          {
+            "id": 6,
+            "id_anggota": 3,
+            "nilai": 55,
+            "pelajaran": "React",
+            "status": false
+          }
+        ]
+      }
+    ]
+  }
+}
