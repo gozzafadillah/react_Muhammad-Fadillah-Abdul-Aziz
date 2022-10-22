@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ListItem from "./ListItem";
 const ListPassenger = (props) => {
-  console.log(props);
   const [ID, setID] = useState("");
 
   const handleInput = (e) => {
