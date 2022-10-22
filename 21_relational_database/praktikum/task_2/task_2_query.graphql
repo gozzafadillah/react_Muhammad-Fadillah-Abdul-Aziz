@@ -1,0 +1,13 @@
+query getAnggotas {
+  kampus_merdeka_anggota {
+    id
+    nama
+    keterangans {
+      id
+      id_anggota
+      nilai
+      pelajaran
+      status
+    }
+  }
+}

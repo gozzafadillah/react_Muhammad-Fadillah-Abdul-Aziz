@@ -1,0 +1,72 @@
+{
+  "data": {
+    "kampus_merdeka_keterangan": [
+      {
+        "anggotum": {
+          "id": 1,
+          "nama": "Budi"
+        },
+        "id": 1,
+        "id_anggota": 1,
+        "nilai": 85,
+        "pelajaran": "Sistem Informasi",
+        "status": true
+      },
+      {
+        "anggotum": {
+          "id": 2,
+          "nama": "Sita"
+        },
+        "id": 3,
+        "id_anggota": 2,
+        "nilai": 90,
+        "pelajaran": "Sistem Informasi",
+        "status": true
+      },
+      {
+        "anggotum": {
+          "id": 3,
+          "nama": "Angga"
+        },
+        "id": 5,
+        "id_anggota": 3,
+        "nilai": 90,
+        "pelajaran": "Sistem Informasi",
+        "status": true
+      },
+      {
+        "anggotum": {
+          "id": 1,
+          "nama": "Budi"
+        },
+        "id": 2,
+        "id_anggota": 1,
+        "nilai": 65,
+        "pelajaran": "React",
+        "status": true
+      },
+      {
+        "anggotum": {
+          "id": 2,
+          "nama": "Sita"
+        },
+        "id": 4,
+        "id_anggota": 2,
+        "nilai": 55,
+        "pelajaran": "React",
+        "status": true
+      },
+      {
+        "anggotum": {
+          "id": 3,
+          "nama": "Angga"
+        },
+        "id": 6,
+        "id_anggota": 3,
+        "nilai": 55,
+        "pelajaran": "React",
+        "status": true
+      }
+    ]
+  }
+}
