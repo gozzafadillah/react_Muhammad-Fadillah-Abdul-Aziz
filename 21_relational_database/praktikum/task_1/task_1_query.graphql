@@ -1,0 +1,13 @@
+query getKeterangans {
+  kampus_merdeka_keterangan {
+    anggotum {
+      id
+      nama
+    }
+    id
+    id_anggota
+    nilai
+    pelajaran
+    status
+  }
+}
