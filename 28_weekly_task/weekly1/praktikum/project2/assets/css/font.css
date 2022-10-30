@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+h1.head-title {
+  font-family: "Press Start 2P", cursive !important;
+  font-size: x-large;
+}
+
+nav {
+  font-family: "Press Start 2P", cursive !important;
+  font-weight: bolder;
+  font-size: smaller;
+}
+
+body {
+  font-family: "Press Start 2P", cursive !important;
+}
+
+.address {
+  font-size: x-small;
+}
